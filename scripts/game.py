@@ -1,11 +1,11 @@
 import pygame, sys
+import os
 from pygame.locals import QUIT
 from vector import Vector2
 from random import randint
 import time
 import AI_v3 as AI
 
-# random delay used to simulate human player for AI
 pygame.init()
 screenSize = Vector2(400, 300)
 screen = pygame.display.set_mode((screenSize.x, screenSize.y))
@@ -29,10 +29,11 @@ for c in range(7):
   board.append(column)
 
 # load in sprites
-tile = pygame.image.load("tile.png").convert_alpha()
-cursor = pygame.image.load("cursor.png").convert_alpha()
-y_piece = pygame.image.load("y_piece.png").convert_alpha()
-r_piece = pygame.image.load("r_piece.png").convert_alpha()
+cwd = os.getcwd()
+tile = pygame.image.load(f"{cwd}\\assets\\tile.png").convert_alpha()
+cursor = pygame.image.load(f"{cwd}\\assets\\cursor.png").convert_alpha()
+y_piece = pygame.image.load(f"{cwd}\\assets\\y_piece.png").convert_alpha()
+r_piece = pygame.image.load(f"{cwd}\\assets\\r_piece.png").convert_alpha()
 
 font = pygame.font.Font('freesansbold.ttf', 16)
 
