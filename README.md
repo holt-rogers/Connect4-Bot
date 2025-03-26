@@ -4,6 +4,8 @@ WARNING: This code was made as a highschool project and is very poorly written. 
 
 A Connect-4 bot made in python with pygame. 
 
+![screenshot](screenshot.png)
+
 ## Running the Program
 
 To run the program, run the `game.py` file. This file recieves input and gets the algorithms moves from the other files. 
