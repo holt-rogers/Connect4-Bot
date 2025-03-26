@@ -1,6 +1,6 @@
 # Connect4-Bot
 
-PREFACE: This code was made as a highschool project and is very poorly written. Do not replicate any of the coding practices in this repo. 
+WARNING: This code was made as a highschool project and is very poorly written. Do not replicate any of the coding practices in this repo. 
 
 A Connect-4 bot made in python with pygame. 
 
